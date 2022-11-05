@@ -1,0 +1,21 @@
+{
+  "type": "multipart",
+  "sub_type": "report",
+  "configs": {
+    "report_type": "delivery-status",
+    "image_paths": [],
+    "charset": "utf-8",
+    "message_charset": "ascii",
+    "content_transfer_encoding": "quoted-printable",
+    "language": "en",
+    "html_sentence_words_max_count": 20,
+    "html_tags_count": 20,
+    "plain_length": 50,
+    "body_type": "multipart/related",
+    "content_type": "message/delivery-status",
+    "action": "failed",
+    "html_text_folder": "D:\\goya\\zero\\email_converter\\examples_for_generator\\html_texts_examples",
+    "plain_text_folder": "D:\\goya\\zero\\email_converter\\examples_for_generator\\plain_texts_examples",
+    "image_folder": "D:\\goya\\zero\\email_converter\\examples_for_generator\\images"
+  }
+}

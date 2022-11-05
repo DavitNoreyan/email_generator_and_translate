@@ -1,0 +1,81 @@
+{
+  "language": "fr",
+  "charset": "utf-8",
+  "content_transfer_encoding": "b",
+  "count": 3,
+  "headers": {
+    "From": {
+      "with_display_name": true,
+      "email_service_list": [
+        "my_service.com"
+      ]
+    },
+    "CC": {
+      "count": 2
+    },
+    "BCC": {
+      "count": 2
+    },
+    "Comments": {
+      "length": 50,
+      "language": "en"
+    },
+    "Date": {
+    },
+    "Errors-To": {
+      "count": 1
+    },
+    "Message-Id": {
+      "idstring": "some_str",
+      "domain": "my-domain.com"
+    },
+    "In-Reply-To": {
+      "idstring": "some_str",
+      "domain": "my-domain.com",
+      "count": 2
+    },
+    "Mime-Version": {
+      "version": 2,
+      "subversion": 5
+    },
+    "Organization": {
+      "length": 20
+    },
+    "Priority": {},
+    "References": {
+      "idstring": "some_str",
+      "domain": "my-domain.com"
+    },
+    "Subject": {
+      "language": "fr",
+      "length": 20
+    },
+    "To": {
+      "count": 1
+    },
+    "Newsgroups": {
+      "count": 2
+    },
+    "Reply-To": {
+      "length": 20,
+      "language": "en",
+      "count": 1
+    },
+    "Sender": {
+      "count": 1
+    },
+    "Received": {
+      "receiving_type": "from",
+      "from_domain": "my_domain.com",
+      "with_ip": true,
+      "domain": "some_domain.net",
+      "smtp_protocol": true,
+      "receiving_year": -2020,
+      "receiving_month": 8,
+      "receiving_day": 5,
+      "receiving_hour": 14,
+      "receiving_minute": 6,
+      "receiving_second": 31
+    }
+  }
+}

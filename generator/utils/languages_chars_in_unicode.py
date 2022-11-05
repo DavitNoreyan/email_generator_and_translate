@@ -1,0 +1,59 @@
+# There are described unicode codes for different languages which will be used in text generating process
+ASCII_PUNCTUATION_AND_SYMBOLS = list(range(32, 48)) + list(range(58, 65)) + list(range(91, 97)) + list(range(123, 127))
+ASCII_DIGITS = list(range(48, 58))
+LATIN_ALPHABET_UPPERCASE = list(range(65, 91))
+LATIN_ALPHABET_LOWERCASE = list(range(97, 123))
+FRENCH_PUNCTUATION = [
+    171,
+    187,
+    139,
+    155,
+    147,
+    148,
+    145,
+    146,
+    151,
+    150,
+]
+FRENCH_OTHER = [
+    128,
+    160,
+]
+FRENCH_SPECIAL_CHARACTERS = [
+    224,
+    192,
+    226,
+    194,
+    232,
+    200,
+    233,
+    201,
+    234,
+    202,
+    235,
+    203,
+    238,
+    206,
+    239,
+    207,
+    244,
+    212,
+    249,
+    217,
+    251,
+    219,
+    252,
+    220,
+    255,
+    159,
+    231,
+    199,
+    156,
+    140,
+]
+FRENCH_CHARACTERS = ASCII_PUNCTUATION_AND_SYMBOLS + ASCII_DIGITS + LATIN_ALPHABET_UPPERCASE + LATIN_ALPHABET_LOWERCASE \
+                    + FRENCH_SPECIAL_CHARACTERS + FRENCH_PUNCTUATION + FRENCH_OTHER
+FRENCH_CHARACTERS_WITHOUT_PUNCTUATION_AND_DIGITS = FRENCH_SPECIAL_CHARACTERS + LATIN_ALPHABET_LOWERCASE + \
+                                                   LATIN_ALPHABET_UPPERCASE
+ENGLISH_WITHOUT_PUNCTUATION_AND_DIGITS = LATIN_ALPHABET_UPPERCASE + LATIN_ALPHABET_LOWERCASE
+ENGLISH_CHARACTERS = ENGLISH_WITHOUT_PUNCTUATION_AND_DIGITS + ASCII_PUNCTUATION_AND_SYMBOLS
